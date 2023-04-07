@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+
+.bg{
+    /* background-image: ; */
+    background: linear-gradient(rgb(4 1 54/74%),rgb(0 0 0/74%)),url("./images/hotel.png");
+    background-size: 100% 100%;  
+    background-repeat:no-repeat;
+    height: 100vh;
+    
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.lists{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-right: 200px;
+    color: gold;
+    font-family: Red Rose ;
+    font-size: medium;
+
+}
+li{
+    margin-left: 50px;
+}
+.logo{
+    height: 40px;
+    margin-top:  20px; ;
+}
+.button{
+    text-decoration: none;
+    color: white;
+}
+.a{
+    margin-top: 30px;
+    border: 1px solid red;
+    padding: 6px 20px;
+    font-family: Red Rose;
+    font-size: medium;
+    font-weight: bold;
+    background-color:red;
+  
+}
+.text{
+   font-size: 70px;
+   width: 60%;
+    text-align:center;
+    font-family: Dela Gothic One;
+    color:gold;
+   margin-left: 240px;
+   margin-top: 50px;
+
+}
+.b{
+    text-decoration: none;
+    padding: 10px 24px;
+    margin-left: 630px; 
+    background-color:red;
+    color: white;
+    border-color: red;
+    font-weight: 600;
+    font-size: medium;  
+    font-family: Red Rose;
+    position: relative;
+    right: 50px;
+    top: 40px;
+}
+.scroll{
+    height: 130px;
+    position: relative;
+    left: 1180px ;
+    top: 20px;
+    
+}
